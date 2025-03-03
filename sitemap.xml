@@ -2,26 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://economicgeek.blog/</loc>
-    <lastmod>2025-03-03T13:56:01+00:00</lastmod>
+    <lastmod>2025-03-03</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://economicgeek.blog/#about</loc>
-    <lastmod>2025-03-03T13:56:01+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>https://economicgeek.blog/posts/global-inflation.html</loc>
+    <lastmod>2025-01-03</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://economicgeek.blog/#blog</loc>
-    <lastmod>2025-03-03T13:56:01+00:00</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://economicgeek.blog/#contact</loc>
-    <lastmod>2025-03-03T13:56:01+00:00</lastmod>
-    <priority>0.7</priority>
+    <loc>https://economicgeek.blog/posts/cryptocurrency-impact.html</loc>
+    <lastmod>2025-01-03</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://economicgeek.blog/posts/ukraine-war-economic-impact.html</loc>
+    <lastmod>2025-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://economicgeek.blog/posts/russian-currency.html</loc>
+    <lastmod>2025-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://economicgeek.blog/posts/banking-education.html</loc>
+    <lastmod>2025-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://economicgeek.blog/posts/economic-growth.html</loc>
+    <lastmod>2025-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>https://economicgeek.blog/posts/technology-labor-market.html</loc>
+    <lastmod>2025-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
 </urlset>
