@@ -1,76 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="robots" content="index, follow" />
-  <meta name="description" content="Economic Geek: Daily economic insights, financial analysis, and global market trends. Expert articles on inflation, technology, labor, and more." />
-  <meta http-equiv="content-language" content="en">
-  <meta name="keywords" content="economy, finance, global market trends, inflation, investments, technology, labor markets" />
-  <meta property="og:title" content="Economic Geek: Insights, Analysis & Global Market Trends" />
-  <meta property="og:description" content="Your daily dose of expert economic analysis, covering finance, inflation, labor, and technology." />
-  <meta property="og:url" content="https://economicgeek.netlify.app/" />
-  <meta property="og:type" content="website" />
-  <link rel="canonical" href="https://economicgeek.blog/" />
-  <title>Economic Geek: Insights, Analysis & Global Market Trends</title>
+  <meta charset="UTF-8">
+  
+  <!-- Mobile Responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Essentials -->
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Economic Geek: Latest economic insights, financial trends, and global market analysis. Expert articles on inflation, crypto, and industry news.">
+  <meta name="keywords" content="economic analysis, finance, global markets, crypto, technology, inflation, investment">
+  <link rel="canonical" href="https://economicgeek.blog/">
+
+  <!-- Title Optimization -->
+  <title>Economic Geek: Financial Insights & Market Trends</title>
+
+  <!-- Open Graph Meta Tags (Facebook) -->
+  <meta property="og:title" content="Economic Geek: Financial Insights & Market Trends">
+  <meta property="og:description" content="Stay updated with the latest economic insights, financial trends, and global market analysis.">
+  <meta property="og:image" content="https://economicgeek.blog/images/economic_bg.jpg">
+  <meta property="og:url" content="https://economicgeek.blog/">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Economic Geek: Financial Insights & Market Trends">
+  <meta name="twitter:description" content="Expert economic analysis, financial trends, and global market updates.">
+  <meta name="twitter:image" content="https://economicgeek.blog/images/economic_bg.jpg">
+
+  <!-- Structured Data (Schema Markup for SEO) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Website",
-    "name": "Economic Geek",
-    "url": "https://economicgeek.netlify.app/",
-    "description": "Daily economic insights, financial analysis, and market trends.",
-    "author": {
-      "@type": "Person",
-      "name": "Dr. Adrian Lancaster"
-    }
+    "@type": "NewsArticle",
+    "headline": "Economic Geek: Financial Insights & Market Trends",
+    "image": "https://economicgeek.blog/images/economic_bg.jpg",
+    "author": { "@type": "Person", "name": "Dr. Adrian Lancaster" },
+    "publisher": { "@type": "Organization", "name": "Economic Geek", "logo": { "@type": "ImageObject", "url": "https://economicgeek.blog/favicon.ico" } },
+    "datePublished": "2025-03-03",
+    "dateModified": "2025-03-03"
   }
   </script>
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://economicgeek.netlify.app/sitemap.xml" />
-  
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://economicgeek.blog/favicon.ico" type="image/x-icon">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- Styling -->
   <style>
+    /* Basic Styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
+      background: url("https://economicgeek.blog/images/economic_bg.jpg") no-repeat center center fixed;
+      background-size: cover;
       color: #333;
       line-height: 1.6;
-      background: url("images/economic_bg.jpg") no-repeat center center fixed;
-      background-size: cover;
     }
-    header h1 {
-      font-size: 48px;
+    header {
+      background: rgba(10, 35, 66, 0.9);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 { font-size: 48px; margin: 0; }
+    nav {
+      background: rgba(27, 58, 102, 0.9);
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    nav a:hover { background-color: rgba(22, 48, 89, 1); }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    footer {
+      background: rgba(10, 35, 66, 0.9);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
     }
   </style>
+
 </head>
 <body>
+  <!-- Header -->
   <header>
     <h1>Economic Geek</h1>
     <p>Your daily dose of economic insights and analysis</p>
   </header>
+
+  <!-- Navigation -->
   <nav>
     <a href="#home">Home</a>
-    <a href="#about">About Me</a>
+    <a href="#about">About</a>
     <a href="#blog">Blog</a>
     <a href="#contact">Contact</a>
   </nav>
-  <div class="container" id="home">
+
+  <!-- Content -->
+  <div class="container">
+    <!-- About Section -->
     <section id="about">
       <h2>About Me</h2>
-      <p>Expert insights from Dr. Adrian Lancaster, a Ph.D. economist with over 20 years of experience.</p>
+      <p>Dr. Adrian Lancaster, an economic analyst, shares insights on financial trends, markets, and global economy.</p>
     </section>
+
+    <!-- Blog Section -->
     <section id="blog">
+      <h2>Latest Blog Posts</h2>
       <article class="blog-post">
-        <h2>The State of Global Inflation in 2025</h2>
-        <img src="images/inflation.jpg" alt="Global Inflation Trends">
-        <p>Analyzing inflation trends and economic policies worldwide.</p>
+        <h3>The State of Global Inflation in 2025</h3>
+        <p>Published on 03/03/2025</p>
+        <img src="https://economicgeek.blog/images/global-inflation.jpg" alt="Global Inflation">
+        <p>Global inflation trends are shifting due to policy changes. Read more...</p>
       </article>
     </section>
+
+    <!-- Contact Section -->
     <section id="contact">
       <h2>Contact Me</h2>
       <p>Email: <a href="mailto:Drlancester1@gmail.com">Drlancester1@gmail.com</a></p>
     </section>
   </div>
+
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Economic Geek. All Rights Reserved.</p>
   </footer>
+
 </body>
 </html>
